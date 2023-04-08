@@ -28,8 +28,8 @@ target_sources(micropy_extmod_btstack INTERFACE
     ${BTSTACK_LIB_DIR}/src/ble/gatt-service/device_information_service_server.c
     ${BTSTACK_LIB_DIR}/src/ble/gatt-service/heart_rate_service_server.c
     ${BTSTACK_LIB_DIR}/src/ble/gatt-service/hids_device.c
-    ${BTSTACK_LIB_DIR}/src/mesh/gatt-service/mesh_provisioning_service_server.c
-    ${BTSTACK_LIB_DIR}/src/mesh/gatt-service/mesh_proxy_service_server.c
+    #${BTSTACK_LIB_DIR}/src/mesh/gatt-service/mesh_provisioning_service_server.c
+    #${BTSTACK_LIB_DIR}/src/mesh/gatt-service/mesh_proxy_service_server.c
     ${BTSTACK_LIB_DIR}/src/ble/gatt-service/nordic_spp_service_server.c
     ${BTSTACK_LIB_DIR}/src/ble/gatt-service/ublox_spp_service_server.c
     ${BTSTACK_LIB_DIR}/src/ble/gatt_client.c

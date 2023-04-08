@@ -3,6 +3,7 @@
 
 #define HCI_OUTGOING_PRE_BUFFER_SIZE 4
 #define HCI_ACL_CHUNK_SIZE_ALIGNMENT 4
+#define ENABLE_LE_SECURE_CONNECTIONS 1
 
 #include "btstack_config_common.h"
 
